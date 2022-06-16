@@ -5,7 +5,7 @@ metadata:
   # ...
   annotations:
     # This also supports bitbucket/xxx/yyy
-    circleci.com/project-slug: github/my-org/my-repo
+    circleci.com/project-slug: github/ziyashaw/backstage-circleci
 spec:
   type: service
   # ...
