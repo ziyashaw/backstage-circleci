@@ -1,0 +1,11 @@
+# Example catalog-info.yaml entity definition file
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  # ...
+  annotations:
+    # This also supports bitbucket/xxx/yyy
+    circleci.com/project-slug: github/my-org/my-repo
+spec:
+  type: service
+  # ...
