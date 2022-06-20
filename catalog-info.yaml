@@ -11,4 +11,5 @@ metadata:
     circleci.com/project-slug: github/ziyashaw/backstage-circleci
 spec:
   type: service
-  # ...
+  owner: ziya
+  lifecycle: experimental
