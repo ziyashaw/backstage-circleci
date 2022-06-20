@@ -64,9 +64,9 @@ proxy:
 techdocs:
   requestUrl: http://localhost:7000/api/techdocs
   storageUrl: http://localhost:7000/api/techdocs/static/docs
-  builder: 'local' # Alternatives - 'external'
+  builder: 'external' # Alternatives - 'external'
   generator:
-    runIn: 'local' # Alternatives - 'docker'
+    runIn: 'docker' # Alternatives - 'docker'
   publisher:
     type: 'local' # Alternatives - 'googleGcs' or 'awsS3'. Read documentation for using alternatives.
 
