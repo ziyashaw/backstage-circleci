@@ -8,8 +8,9 @@ metadata:
   
   annotations:
     # This also supports bitbucket/xxx/yyy
+    github.com/project-slug: ziyashaw/backstage-circleci
     circleci.com/project-slug: github/ziyashaw/backstage-circleci
 spec:
   type: service
-  owner: ziya
+  owner: user:ziyashaw
   lifecycle: experimental
