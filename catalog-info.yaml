@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-circleci
+  annotations:
+    github.com/project-slug: ziyashaw/backstage-circleci
+spec:
+  type: other
+  lifecycle: unknown
+  owner: ziyashaw
