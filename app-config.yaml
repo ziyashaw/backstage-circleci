@@ -46,7 +46,7 @@ integrations:
     #   apiBaseUrl: https://ghe.example.net/api/v3
     #   token: ${GHE_TOKEN}
     - host: github.com
-      token: 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
+      token: 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
 
 proxy:
   '/test':
