@@ -49,9 +49,9 @@ integrations:
       token: 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
 
 proxy:
-  '/test':
-    target: 'https://example.com'
-    changeOrigin: true
+ # '/test':
+ #   target: 'https://example.com'
+ #   changeOrigin: true
   '/circleci/api':
     target: https://circleci.com/api/v1.1
     headers:
