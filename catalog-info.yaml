@@ -8,7 +8,7 @@ metadata:
   
   annotations:
     # This also supports bitbucket/xxx/yyy
-    #github.com/project-slug: ziyashaw/backstage-circleci
+    ##github.com/project-slug: ziyashaw/backstage-circleci
     circleci.com/project-slug: github/ziyashaw/backstage-circleci
     backstage.io/techdocs-ref: dir:.
 spec:
