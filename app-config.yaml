@@ -55,7 +55,7 @@ proxy:
   '/circleci/api':
     target: https://circleci.com/api/v1.1
     headers:
-      Circle-Token: ${6ec3d8ea96466468e8f91afc2bec608573672ac8}
+      Circle-Token: 6ec3d8ea96466468e8f91afc2bec608573672ac8
 
 # Reference documentation http://backstage.io/docs/features/techdocs/configuration
 # Note: After experimenting with basic setup, use CI/CD to generate docs
