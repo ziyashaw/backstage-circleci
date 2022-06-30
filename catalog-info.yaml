@@ -5,7 +5,15 @@ metadata:
   name: backstage-circleci
   description: |
     Backstage is an open-source developer portal. An example deployment of a Backstage application. Trying for test purpose of backstage. #Test 
-  
+  links:
+    - title: Website
+      url: http://backstage.io
+    - title: Documentation
+      url: https://backstage.io/docs
+    - title: Storybook
+      url: https://backstage.io/storybook
+    - title: Discord Chat
+      url: https://discord.com/invite/EBHEGzX
   annotations:
     # This also supports bitbucket/xxx/yyy
     github.com/project-slug: ziyashaw/backstage-circleci
