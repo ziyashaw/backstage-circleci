@@ -10,7 +10,7 @@ metadata:
     # This also supports bitbucket/xxx/yyy
     github.com/project-slug: ziyashaw/backstage-circleci
     circleci.com/project-slug: github/ziyashaw/backstage-circleci
-    jira/project-key: 'https://saks.atlassian.net/jira/software/c/projects/CXDO/boards/5'
+    jira/project-key: https://saks.atlassian.net/jira/software/c/projects/CXDO/boards/5
     backstage.io/techdocs-ref: dir:.
 spec:
   type: service
