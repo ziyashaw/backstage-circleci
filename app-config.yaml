@@ -56,6 +56,15 @@ proxy:
     target: https://circleci.com/api/v1.1
     headers:
       Circle-Token: 6ec3d8ea96466468e8f91afc2bec608573672ac8
+  '/jira/api':
+    target: 'https://saks.atlassian.net/jira/software/c/projects/CXDO/boards/5'
+    headers:
+      Authorization:
+        $env: JIRA_TOKEN
+      Accept: 'application/json'
+      Content-Type: 'application/json'
+      X-Atlassian-Token: 'nocheck'
+      User-Agent: "MY-UA-STRING"
 
 # Reference documentation http://backstage.io/docs/features/techdocs/configuration
 # Note: After experimenting with basic setup, use CI/CD to generate docs
