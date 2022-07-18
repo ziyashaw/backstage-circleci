@@ -18,7 +18,7 @@ metadata:
     # This also supports bitbucket/xxx/yyy
     github.com/project-slug: ziyashaw/backstage-circleci
     circleci.com/project-slug: github/ziyashaw/backstage-circleci
-    jira/project-key: CXDO
+    jira/project-key: CX-DevOps
     backstage.io/techdocs-ref: dir:.
 spec:
   type: service
