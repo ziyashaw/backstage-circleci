@@ -57,7 +57,7 @@ proxy:
  #   headers:
  #     Circle-Token: 6ec3d8ea96466468e8f91afc2bec608573672ac8
   '/jira/api':
-    target: 'https://saks.atlassian.net'
+    target: 'https://saks.atlassian.net/jira/software/c/projects/CXDO/boards/68'
     headers:
       Authorization:
         $env: 'Basic c2hhemlhLmFzaHJhZkBzYWtzLmNvbTpaN0xjT0ROSzZsMktTc1VpMzRxTDUxNzU='
