@@ -52,10 +52,10 @@ proxy:
  # '/test':
  #   target: 'https://example.com'
  #   changeOrigin: true
-  '/circleci/api':
-    target: https://circleci.com/api/v1.1
-    headers:
-      Circle-Token: 6ec3d8ea96466468e8f91afc2bec608573672ac8
+ # '/circleci/api':
+ #   target: https://circleci.com/api/v1.1
+ #   headers:
+ #     Circle-Token: 6ec3d8ea96466468e8f91afc2bec608573672ac8
   '/jira/api':
     target: 'https://saks.atlassian.net/jira/software/c/projects/CXDO/boards/5'
     headers:
