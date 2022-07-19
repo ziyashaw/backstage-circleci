@@ -20,6 +20,12 @@ backend:
     # host: 0.0.0.0
   csp:
     connect-src: ["'self'", 'http:', 'https:']
+    img-src:
+      # "'self'" and 'data' are from the backstage default but must be set since img-src is overriden
+      - "'self'"
+      - 'data:'
+      # Allow your Jira instance for @roadiehq/backstage-plugin-jira
+      - 'https://backstagetest.atlassian.net/jira/software/projects/SAKS/boards/1'
     # Content-Security-Policy directives follow the Helmet format: https://helmetjs.github.io/#reference
     # Default Helmet Content-Security-Policy values can be removed by setting the key to false
   cors:
@@ -57,10 +63,10 @@ proxy:
  #   headers:
  #     Circle-Token: 6ec3d8ea96466468e8f91afc2bec608573672ac8
   '/jira/api':
-    target: 'https://saks.atlassian.net/jira/software/c/projects/CXDO/boards/68'
+    target: 'https://backstagetest.atlassian.net/jira/software/projects/SAKS/boards/1'
     headers:
       Authorization:
-        env: 'Basic c2hhemlhLmFzaHJhZkBzYWtzLmNvbTpaN0xjT0ROSzZsMktTc1VpMzRxTDUxNzU='
+        $env: JIRA_TOKEN
       Accept: 'application/json'
       Content-Type: 'application/json'
       X-Atlassian-Token: 'nocheck'
