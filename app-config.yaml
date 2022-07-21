@@ -54,6 +54,9 @@ integrations:
     - host: github.com
       token: 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
 
+lighthouse:
+  baseUrl: https://www.saksfifthavenue.com/
+  
 proxy:
  # '/test':
  #   target: 'https://example.com'
