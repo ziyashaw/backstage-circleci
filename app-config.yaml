@@ -74,7 +74,10 @@ proxy:
       Content-Type: 'application/json'
       X-Atlassian-Token: 'nocheck'
       User-Agent: 'MY-UA-STRING'
-
+  '/newrelic/apm/api':
+    target: https://api.newrelic.com/v2
+    headers:
+      X-Api-Key: NRAK-QQOY2R1Z5GD7YRKA9Y689KK0O5P
 # Reference documentation http://backstage.io/docs/features/techdocs/configuration
 # Note: After experimenting with basic setup, use CI/CD to generate docs
 # and an external cloud storage when deploying TechDocs for production use-case.
