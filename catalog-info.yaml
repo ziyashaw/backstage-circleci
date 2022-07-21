@@ -9,7 +9,7 @@ metadata:
     # This also supports bitbucket/xxx/yyy
     github.com/project-slug: ziyashaw/backstage-circleci.
     circleci.com/project-slug: github/ziyashaw/backstage-circleci
-    lighthouse.com/website-url: https://backstage.io/   
+    lighthouse.com/website-url: https://www.saksfifthavenue.com/   
     jira/project-key: SAKS
     backstage.io/techdocs-ref: dir:.
 spec:
