@@ -65,12 +65,12 @@ proxy:
   '/jira/api':
     target: 'https://backstagetest.atlassian.net/jira/software/projects/SAKS/boards/1'
     headers:
-      Authorization:
-        $env: JIRA_TOKEN
+      Authorization: 'Basic ${eml5YXNoYXdAZ21haWwuY29tOlpqV3daclJDWVJtbE5JQ0xWc1Y2NEFCQg==}'
+      #  $env: JIRA_TOKEN
       Accept: 'application/json'
       Content-Type: 'application/json'
       X-Atlassian-Token: 'nocheck'
-      User-Agent: 'saks'
+      User-Agent: 'MY-UA-STRING'
 
 # Reference documentation http://backstage.io/docs/features/techdocs/configuration
 # Note: After experimenting with basic setup, use CI/CD to generate docs
