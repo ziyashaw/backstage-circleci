@@ -10,7 +10,8 @@ metadata:
     github.com/project-slug: ziyashaw/backstage-circleci.
     circleci.com/project-slug: github/ziyashaw/backstage-circleci
     lighthouse.com/website-url: https://www.saksfifthavenue.com/   
-    jira/project-key: SAKS
+    #jira/project-key: SAKS
+    jira/project-key: CXDO
     backstage.io/techdocs-ref: dir:.
 spec:
   type: service
