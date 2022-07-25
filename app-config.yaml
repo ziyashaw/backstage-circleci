@@ -25,7 +25,8 @@ backend:
       - "'self'"
       - 'data:'
       # Allow your Jira instance for @roadiehq/backstage-plugin-jira
-      - 'https://backstagetest.atlassian.net/jira/software/projects/SAKS/boards/1'
+      #- 'https://backstagetest.atlassian.net/jira/software/projects/SAKS/boards/1'
+      - 'https://saks.atlassian.net/jira/software/c/projects/CXDO/boards/68'
     # Content-Security-Policy directives follow the Helmet format: https://helmetjs.github.io/#reference
     # Default Helmet Content-Security-Policy values can be removed by setting the key to false
   cors:
