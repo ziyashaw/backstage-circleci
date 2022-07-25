@@ -75,7 +75,6 @@ proxy:
       #  $env: JIRA_TOKEN
       Accept: 'application/json'
       Content-Type: 'application/json'
-      #Connection: 'keep-alive'
       X-Atlassian-Token: 'nocheck'
       User-Agent: 'MY-UA-STRING'
   '/newrelic/apm/api':
