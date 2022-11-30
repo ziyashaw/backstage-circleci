@@ -1,0 +1,19 @@
+# Example catalog-info.yaml entity definition file
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-circleci
+  description: |
+    Backstage is an open-source developer portal. An example deployment of a Backstage application. Trying for test purpose of backstage. #Test 
+  annotations:
+    # This also supports bitbucket/xxx/yyy
+    github.com/project-slug: ziyashaw/backstage-circleci.
+    circleci.com/project-slug: github/ziyashaw/backstage-circleci
+    lighthouse.com/website-url: https://www.saksfifthavenue.com/   
+    #jira/project-key: SAKS
+    jira/project-key: CXDO
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  owner: user:ziyashaw
+  lifecycle: experimental

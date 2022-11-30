@@ -1,0 +1,10 @@
+site_name: 'Backstage CicrleCI'
+site_description: 'Main documentation for Backstage Circle CI features and platform APIs'
+repo_url: https://github.com/ziyashaw/backstage-circleci
+edit_uri: edit/main/docs
+
+plugins:
+  - techdocs-core
+  
+nav:
+  - Introduction: index.md
